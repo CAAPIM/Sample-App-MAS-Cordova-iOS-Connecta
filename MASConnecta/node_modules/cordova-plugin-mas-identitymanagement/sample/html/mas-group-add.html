@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="utf-8">
+    <title>Groups Page</title>
+    <!--            <link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet'>-->
+    <!--                <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel='stylesheet'>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+		body{font-family: 'Ropa Sans', sans-serif; color:#666}
+		.add1{margin:0 auto; width:720px}
+		li,ul,body{margin:0; padding:0; list-style:none}
+		#login-form{width:350px; background:#FFF; margin:0px auto; background:#f1f1f1}
+		.form-header{display:table; clear:both}
+		.form-header li{display:inline-block; line-height:40px; width:255px; margin:0 2px; text-align:center; background:#e8e8e8}
+		.form-header li:nth-child(odd){padding-left: 40px;}
+		.form-header li:nth-child(even){width:50px; margin:0 0;}
+		.remember:nth-child(2){text-align:right}
+		.close_button{width:25%;}
+
+    </style>
+
+    <script>
+		var userName;
+		var MASGroup = new MASIdentityManagementPlugin.MASGroup();		
+		var constants = new MASIdentityManagementPlugin.MASFilterConstant();
+		var groupsObject, userObject;
+		MASPluginUser.currentUser(function (result){
+		        userName = result.userName;
+			    updateGroups();
+            },function(error) {
+
+				window.errorFromGroupUI = error;
+				var MAS = new MASPlugin.MAS();
+				MAS.closePopup();
+            }
+        );
+
+
+		function updateGroups(){
+            userObject = null;
+            groupsObject = null;
+
+			var filter = new MASIdentityManagementPlugin.MASFilteredRequest();
+            filter.setFilter(constants.GroupAttributes.ownerName,constants.Operator.eq,userName);
+            filter.setSortOrder(constants.SortOrder.ascending,constants.GroupAttributes.displayName);
+            filter.setPagination(1,20);
+            var filterRequest = filter.returnFinal();
+
+			$firstchoice = $("#first-choice");
+			var MASGroup = new MASIdentityManagementPlugin.MASGroup();
+
+			MASGroup.getGroupsByFilter(function (result){
+				var retainGroup = $firstchoice.val();
+				$firstchoice.html('');
+				groupsObject = result;
+				var $dropdown = $(this);
+				$.each(result, function(index, value) {
+					$firstchoice.append("<option>" + value.displayName + "</option>");
+				});
+				$firstchoice.val(retainGroup);
+			},function (error) {
+				
+				window.errorFromGroupUI = error;
+				var MAS = new MASPlugin.MAS();
+				MAS.closePopup();
+			},filterRequest);
+		}
+
+		$('#search').click(function() {
+		  var objectId = $("input[name='userName']").val();
+		  
+		  MASPluginUser.getUserByObjectId(function(result){
+		  	userObject = result;
+		  	$("#displayUser").html('');
+		  	$("#displayUser").append("Username : " + result.userName);
+		  },function(error){
+		  	alert(error.errorMessage);
+		  },objectId);
+		});
+
+		$('#addUser').click(function() {
+            var selectedGroup = $("#first-choice").val();
+            var selectedGroupJSON;
+            if(typeof groupsObject !== "undefined" && groupsObject !== null && groupsObject){
+                $.each(groupsObject,function(index, value){
+                    if(selectedGroup === value.displayName){
+                        selectedGroupJSON = value;
+                    }
+                });
+            }
+            var userJSON = [];
+            userJSON.push(userObject);
+			MASGroup.addMemberToGroup(function(result){
+				alert("Member added"); 
+				updateGroups();
+			},function(error){
+				alert(error.errorMessage);
+			},selectedGroupJSON, userJSON);
+		});
+
+		$('#close_button').click(function(){
+			$.mobile.activePage.find(".messagePopup").popup("close");
+		});
+		$( document ).ready(function() {
+		});
+
+    </script>
+</head>
+<body>
+<div id="login-form">
+    <div>
+        <ul id="" class="form-header">
+            <li>Select Group and Users</li>
+            <li id="close"><img src="masui/img/close.png" class="close_button"
+                                id="close_button"/></li>
+        </ul>
+    </div>
+</div>
+<br><br>
+
+<select id="first-choice" style="height:30px;text-align:center;">
+    <option selected value="base">Please Select a Group</option>
+</select>
+
+<br>
+<div class="user">
+    Enter Username:<input type="text" name="userName">
+    <button id="search"> Search</button>
+</div>
+
+<div id="displayUser"></div>
+<button id="addUser">Add User</button>
+</body>
+</html>

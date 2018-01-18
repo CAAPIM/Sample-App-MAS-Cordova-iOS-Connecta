@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ca.apim.regressionConnecta"
+        },
+        "cordova-plugin-mas-core": {
+            "PACKAGE_NAME": "com.ca.apim.regressionConnecta"
+        },
+        "cordova-plugin-mas-identitymanagement": {
+            "PACKAGE_NAME": "com.ca.apim.regressionConnecta"
+        },
+        "cordova-plugin-mas-connecta": {
+            "PACKAGE_NAME": "com.ca.apim.regressionConnecta"
+        }
+    },
+    "dependent_plugins": {}
+}

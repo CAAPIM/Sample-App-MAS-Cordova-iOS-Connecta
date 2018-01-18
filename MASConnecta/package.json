@@ -1,0 +1,30 @@
+{
+    "name": "com.ca.apim.regressionconnecta",
+    "displayName": "RegressionConnecta",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-ios": "^4.4.0",
+        "cordova-plugin-mas-connecta": "file:///Users/aglsa02/Development/Cordova-MAS-Connecta",
+        "cordova-plugin-mas-core": "file:///Users/aglsa02/Development/Cordova-MAS-Foundation",
+        "cordova-plugin-mas-identitymanagement": "file:///Users/aglsa02/Development/Cordova-MAS-IdentityManagement",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-mas-core": {},
+            "cordova-plugin-mas-identitymanagement": {},
+            "cordova-plugin-mas-connecta": {}
+        },
+        "platforms": [
+            "ios"
+        ]
+    }
+}

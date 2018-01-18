@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/Users/aglsa02/Development/Cordova-MAS-Connecta",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/Users/aglsa02/Development/Cordova-MAS-Connecta",
+        "spec": "/Users/aglsa02/Development/Cordova-MAS-Connecta",
+        "type": "directory"
+      },
+      "/Users/aglsa02/Development/RegressionCordova/RegressionConnecta/node_modules"
+    ]
+  ],
+  "_from": "../../Cordova-MAS-Connecta",
+  "_id": "cordova-plugin-mas-connecta@1.5.0",
+  "_inCache": true,
+  "_location": "/cordova-plugin-mas-connecta",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/Users/aglsa02/Development/Cordova-MAS-Connecta",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/Users/aglsa02/Development/Cordova-MAS-Connecta",
+    "spec": "/Users/aglsa02/Development/Cordova-MAS-Connecta",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:../../Cordova-MAS-Connecta",
+  "_shasum": "d00b461e7dbfb8ca5fb86be348ba2d27e433e24c",
+  "_shrinkwrap": null,
+  "_spec": "/Users/aglsa02/Development/Cordova-MAS-Connecta",
+  "_where": "/Users/aglsa02/Development/RegressionCordova/RegressionConnecta/node_modules",
+  "author": {
+    "name": "CA Technologies Ltd."
+  },
+  "bugs": {
+    "url": "https://github.com/CAAPIM/MAS-Connecta-Cordova/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-mas-connecta",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova MAS Connecta Plugin",
+  "devDependencies": {},
+  "gitHead": "cfc996d38dc114a3af9a3ae920a1242165d070f0",
+  "homepage": "https://github.com/CAAPIM/MAS-Connecta-Cordova#readme",
+  "keywords": [
+    "cordova",
+    "MASConnecta",
+    "CA Technologies",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "CA Technologies Ltd.",
+  "name": "cordova-plugin-mas-connecta",
+  "optionalDependencies": {},
+  "readme": "# Cordova-MAS-Connecta\nCordova-MAS-Connecta is the core messaging framework of the Cordova Mobile SDK, which is part of the CA Mobile API Gateway. It gives developers the ability to create social collaborative apps where users can message and send data to each other.\n*********************************************************\n\n## Features\n\nThe MAS Connecta framework comes with the following features:\n\n- Secure and reliable User to User messaging\n- MQTT client with built-in mutual SSL and OAuth support\n*********************************************************\n\n## Get Started\nFollow our [documentation](http://mas.ca.com/docs/) to install Cordova and set up iOS and Android projects.\n*********************************************************\n\n## How You Can Contribute\nContributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines](https://github.com/CAAPIM/Cordova-MAS-Connecta/blob/develop/CONTRIBUTING.md).\n\n## Generate Reference documents\nThe reference documents for the MAS modules are generated using the JSDoc markdown language. JSDoc reads the JS files with annotations in comments, and generates an HTML output. It considers the comments that start with /**.\n\nTo install JSDoc, follow the instructions on [JSDoc](http://usejsdoc.org/) website.\n\nThe Cordova reference documents are available at our [mas.ca.com]( http://mas.ca.com/docs/cordova/1.4.00/sdk/) site.\n\nExample:\nAn annotated comment for validateOTP method is as follows:\n```\n /**\n  Validate the OTP.\n  * @param {function} successHandler user defined success callback\n  * @param {function} errorHandler user defined error callback\n  * @param {string} otp user defined one-time password to verify\n  */\n```\n**Param** – Specifies a parameter.\n**{string}**  – Specifies the return type of the method.\n**otp** – Specifies the variable name.\n**user defined one-time password to verify** – Describes the method.\n\nCompile the JSDoc reference document as follows:\n```\njsdoc www/ -d jsdocs\n```\nwhere “www/” is the location of the js file, and “-d jsdocs” is the location where the generated reference documents are placed.\n\nFor more information about how to write and compile the JSDoc reference documents, see the [JSDoc](http://usejsdoc.org/) website.\n\n## Communication\n\n- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')\n- *Find a bug?*, open an issue with the steps to reproduce it.\n- *Request a feature or have an idea?*, open an issue.\n\n## License\nCopyright (c) 2016 CA. All rights reserved.\n\nThis software may be modified and distributed under the terms of the MIT license. See the [LICENSE](https://github.com/CAAPIM/Cordova-MAS-Connecta/blob/develop/LICENSE) file for details.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAAPIM/MAS-Connecta-Cordova.git"
+  },
+  "version": "1.5.0"
+}
