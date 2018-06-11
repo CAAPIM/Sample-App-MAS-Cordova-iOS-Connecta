@@ -21,11 +21,14 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <clobbers target="MASPluginFilterConstant" />
     </js-module>
 
-    <dependency id="cordova-plugin-mas-core" url="https://github.com/CAAPIM/Cordova-MAS-Foundation.git" commit="develop" />
+    <dependency id="cordova-plugin-mas-core" />
     
     <!-- iOS -->
     <platform name="ios" >
         <config-file target="config.xml" parent="/*" >
+
+            <preference name="deployment-target" value="9.0"/>
+
             <feature name="MASIdentityManagementPlugin" >
                 <param name="ios-package" value="MASIdentityManagementPlugin"/>
             </feature>
@@ -33,6 +36,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         
         <header-file src="src/ios/MASIdentityManagementPlugin.h" />
         <source-file src="src/ios/MASIdentityManagementPlugin.m" />
+
+<!--        <framework src="MASIdentityManagement" type="podspec" spec="~> 1.7.00" />-->
+
     </platform>
 
     <!-- Android -->
