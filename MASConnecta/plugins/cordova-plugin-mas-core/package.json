@@ -1,47 +1,7 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "/Users/aglsa02/Development/Cordova-MAS-Foundation",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "/Users/aglsa02/Development/Cordova-MAS-Foundation",
-        "spec": "/Users/aglsa02/Development/Cordova-MAS-Foundation",
-        "type": "directory"
-      },
-      "/Users/aglsa02/Development/RegressionCordova/RegressionConnecta/node_modules"
-    ]
-  ],
-  "_from": "../../Cordova-MAS-Foundation",
-  "_id": "cordova-plugin-mas-core@1.5.0",
-  "_inCache": true,
-  "_location": "/cordova-plugin-mas-core",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "/Users/aglsa02/Development/Cordova-MAS-Foundation",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "/Users/aglsa02/Development/Cordova-MAS-Foundation",
-    "spec": "/Users/aglsa02/Development/Cordova-MAS-Foundation",
-    "type": "directory"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "file:../../Cordova-MAS-Foundation",
-  "_shasum": "a5f34797b130b935ada291605127f1889ff5b8e5",
-  "_shrinkwrap": null,
-  "_spec": "/Users/aglsa02/Development/Cordova-MAS-Foundation",
-  "_where": "/Users/aglsa02/Development/RegressionCordova/RegressionConnecta/node_modules",
-  "author": {
-    "name": "CA Technologies Ltd."
-  },
-  "bugs": {
-    "url": "https://github.com/CAAPIM/MAS-Foundation-Cordova/issues"
-  },
+  "name": "cordova-plugin-mas-core",
+  "version": "1.6.10",
+  "description": "Cordova MAS Plugin",
   "cordova": {
     "id": "cordova-plugin-mas-core",
     "platforms": [
@@ -49,11 +9,10 @@
       "android"
     ]
   },
-  "dependencies": {},
-  "description": "Cordova MAS Plugin",
-  "devDependencies": {},
-  "gitHead": "750fab634ae151e94fa0caf4664e09a32d2360d3",
-  "homepage": "https://github.com/CAAPIM/MAS-Foundation-Cordova#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAAPIM/MAS-Foundation-Cordova.git"
+  },
   "keywords": [
     "cordova",
     "MAS",
@@ -62,14 +21,15 @@
     "cordova-ios",
     "cordova-android"
   ],
+  "author": "CA Technologies Ltd.",
   "license": "CA Technologies Ltd.",
-  "name": "cordova-plugin-mas-core",
-  "optionalDependencies": {},
-  "readme": "Cordova-MAS-Foundation is the core Cordova framework for CA Mobile API Gateway.\r\n*********************************************************\r\n\r\n## Features\r\nThe Cordova-MAS-Foundation framework has the following features:\r\n\r\n* User Authentication and Authorization\r\n* Customize Login Dialogs\r\n* Enterprise Browser\r\n* Fingerprint Sessions Lock\r\n* One-Time Password (OTP)\r\n* Proximity Login (QR Code)\r\n* Social Login\r\n\r\n*********************************************************\r\n\r\n## Get Started\r\nFollow our [documentation](http://mas.ca.com/docs/) to install Cordova and set up iOS and Android projects.\r\n*********************************************************\r\n\r\n## Generate Reference documents\r\n\r\nThe reference documents for the MAS modules are generated using the JSDoc markdown language. JSDoc reads the JS files with annotations in comments, and generates an HTML output. It considers the comments that start with /**.\r\n\r\nTo install JSDoc, follow the instructions on [JSDoc](http://usejsdoc.org/) website.\r\n\r\nThe Cordova reference documents are available at our [mas.ca.com]( http://mas.ca.com/docs/cordova/1.4.00/sdk/) site.\r\n\r\nExample:\r\nAn annotated comment for validateOTP method is as follows:\r\n\r\n```\r\n /**\r\n  Validate the OTP.\r\n  * @param {function} successHandler user defined success callback\r\n  * @param {function} errorHandler user defined error callback\r\n  * @param {string} otp user defined one-time password to verify\r\n  */\r\n```\r\n\r\n**Param** – Specifies a parameter.\r\n**{string}**  – Specifies the return type of the method.\r\n**otp** – Specifies the variable name.\r\n**user defined one-time password to verify** – Describes the method.\r\n\r\nCompile the JSDoc reference document as follows:\r\n\r\n```\r\njsdoc www/ -d jsdocs\r\n```\r\n\r\nwhere “www/” is the location of the js file, and “-d jsdocs” is the location where the generated reference documents are placed.\r\n\r\nFor more information about how to write and compile the JSDoc reference documents, see the [JSDoc](http://usejsdoc.org/) website.\r\n\r\n## How You Can Contribute\r\n\r\nContributions are welcome and much appreciated. To learn more, see the [Contribution Guidelines](https://github.com/CAAPIM/Cordova-MAS-Foundation/blob/develop/CONTRIBUTING.md).\r\n\r\n## Communication\r\n\r\n- *Have general questions or need help?*, use [Stack Overflow][StackOverflow]. (Tag 'massdk')\r\n- *Find a bug?*, open an issue with the steps to reproduce it.\r\n- *Request a feature or have an idea?*, open an issue.\r\n\r\n## License\r\nCopyright (c) 2016 CA. All rights reserved.\r\n\r\nThis software may be modified and distributed under the terms of the MIT license. See the [LICENSE](https://github.com/CAAPIM/Cordova-MAS-Foundation/blob/develop/LICENSE) file for details.\r\n",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CAAPIM/MAS-Foundation-Cordova.git"
+  "bugs": {
+    "url": "https://github.com/CAAPIM/MAS-Foundation-Cordova/issues"
   },
-  "version": "1.5.0"
+  "homepage": "https://github.com/CAAPIM/MAS-Foundation-Cordova#readme",
+  "dependencies": {
+    "filehound": "^1.16.2",
+    "plist": "^3.0.1",
+    "xcode": "^1.0.0"
+  }
 }
