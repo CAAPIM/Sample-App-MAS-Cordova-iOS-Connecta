@@ -1,0 +1,1 @@
+../../../../MASConnecta/MASConnecta.framework/Headers/MASConnecta.h

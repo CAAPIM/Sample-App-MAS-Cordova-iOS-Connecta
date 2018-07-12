@@ -10,7 +10,7 @@
           "/*": [
             {
               "xml": "<preference name=\"deployment-target\" value=\"9.0\" />",
-              "count": 3
+              "count": 2
             },
             {
               "xml": "<feature name=\"MASPluginMAS\"><param name=\"ios-package\" value=\"MASPluginMAS\" /></feature>",
@@ -37,10 +37,6 @@
               "count": 1
             },
             {
-              "xml": "<feature name=\"MASIdentityManagementPlugin\"><param name=\"ios-package\" value=\"MASIdentityManagementPlugin\" /></feature>",
-              "count": 1
-            },
-            {
               "xml": "<feature name=\"MASConnectaPlugin\"><param name=\"ios-package\" value=\"MASConnectaPlugin\" /></feature>",
               "count": 1
             }
@@ -54,9 +50,6 @@
       "PACKAGE_NAME": "com.ca.apim.connecta"
     },
     "cordova-plugin-mas-core": {
-      "PACKAGE_NAME": "com.ca.apim.connecta"
-    },
-    "cordova-plugin-mas-identitymanagement": {
       "PACKAGE_NAME": "com.ca.apim.connecta"
     },
     "cordova-plugin-mas-connecta": {
@@ -162,30 +155,6 @@
       ]
     },
     {
-      "id": "cordova-plugin-mas-identitymanagement.MASIdentityManagementPlugin",
-      "file": "plugins/cordova-plugin-mas-identitymanagement/www/MASIdentityManagementPlugin.js",
-      "pluginId": "cordova-plugin-mas-identitymanagement",
-      "clobbers": [
-        "MASIdentityManagementPlugin"
-      ]
-    },
-    {
-      "id": "cordova-plugin-mas-identitymanagement.MASPluginFilteredRequest",
-      "file": "plugins/cordova-plugin-mas-identitymanagement/www/MASPluginFilteredRequest.js",
-      "pluginId": "cordova-plugin-mas-identitymanagement",
-      "clobbers": [
-        "MASPluginFilteredRequest"
-      ]
-    },
-    {
-      "id": "cordova-plugin-mas-identitymanagement.MASPluginFilterConstant",
-      "file": "plugins/cordova-plugin-mas-identitymanagement/www/MASPluginFilterConstant.js",
-      "pluginId": "cordova-plugin-mas-identitymanagement",
-      "clobbers": [
-        "MASPluginFilterConstant"
-      ]
-    },
-    {
       "id": "cordova-plugin-mas-connecta.MASConnectaPlugin",
       "file": "plugins/cordova-plugin-mas-connecta/www/MASConnectaPlugin.js",
       "pluginId": "cordova-plugin-mas-connecta",
@@ -237,7 +206,6 @@
   "plugin_metadata": {
     "cordova-plugin-whitelist": "1.3.3",
     "cordova-plugin-mas-core": "0.1.0",
-    "cordova-plugin-mas-identitymanagement": "0.1.0",
     "cordova-plugin-mas-connecta": "0.1.0"
   }
 }

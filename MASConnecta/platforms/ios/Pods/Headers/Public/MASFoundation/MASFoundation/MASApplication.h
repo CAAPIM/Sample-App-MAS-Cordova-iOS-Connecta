@@ -1,0 +1,1 @@
+../../../../MASFoundation/MASFoundation.framework/Headers/MASApplication.h

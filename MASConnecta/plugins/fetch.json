@@ -7,28 +7,20 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-mas-core": {
-    "source": {
-      "type": "local",
-      "path": "/Users/aglsa02/Development/cordovaSampleApps/1.7.00/Connecta/node_modules/cordova-plugin-mas-core"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-mas-identitymanagement": {
-    "source": {
-      "type": "local",
-      "path": "/Users/aglsa02/Development/cordovaSampleApps/1.7.00/Connecta/node_modules/cordova-plugin-mas-identitymanagement"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-mas-connecta": {
     "source": {
-      "type": "local",
-      "path": "/Users/aglsa02/Development/cordovaSampleApps/1.7.00/Connecta/node_modules/cordova-plugin-mas-connecta"
+      "type": "registry",
+      "id": "cordova-plugin-mas-connecta"
     },
     "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-mas-core": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-mas-core"
+    },
+    "is_top_level": false,
     "variables": {}
   }
 }

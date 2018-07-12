@@ -37,9 +37,6 @@
     <feature name="MASPluginAuthProviders">
         <param name="ios-package" value="MASPluginAuthProviders" />
     </feature>
-    <feature name="MASIdentityManagementPlugin">
-        <param name="ios-package" value="MASIdentityManagementPlugin" />
-    </feature>
     <feature name="MASConnectaPlugin">
         <param name="ios-package" value="MASConnectaPlugin" />
     </feature>

@@ -10,15 +10,13 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.ca.apim.connecta"
     },
-    "cordova-plugin-mas-core": {
-      "PACKAGE_NAME": "com.ca.apim.connecta"
-    },
-    "cordova-plugin-mas-identitymanagement": {
-      "PACKAGE_NAME": "com.ca.apim.connecta"
-    },
     "cordova-plugin-mas-connecta": {
       "PACKAGE_NAME": "com.ca.apim.connecta"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-mas-core": {
+      "PACKAGE_NAME": "com.ca.apim.connecta"
+    }
+  }
 }
