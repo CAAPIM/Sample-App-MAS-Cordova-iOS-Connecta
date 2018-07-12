@@ -1,0 +1,27 @@
+{
+    "name": "com.ca.apim.connecta",
+    "displayName": "Connecta",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-mas-connecta": {}
+        },
+        "platforms": [
+            "ios"
+        ]
+    },
+    "dependencies": {
+        "cordova-plugin-mas-connecta": "^1.7.12",
+        "cordova-plugin-mas-core": "^1.7.12",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova-ios": "/Users/yussy01/WorkSpace/MAS/Cordova/Dev/mas-cli/Support/cordova-ios/"
+    }
+}

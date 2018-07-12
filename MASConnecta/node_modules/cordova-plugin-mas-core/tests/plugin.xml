@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.ca.apim-tests"
+    version="0.1.0">
+    <name>MASPlugin Tests</name>
+
+    <js-module src="tests.js" name="tests">
+    </js-module>
+    <asset src="www/assets/csp-incl.js" target="csp-incl.js"/>
+    <asset src="www/assets/masui" target="cdvtests/masui"/>
+</plugin>
