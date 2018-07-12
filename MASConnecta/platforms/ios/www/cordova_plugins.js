@@ -97,30 +97,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-mas-identitymanagement.MASIdentityManagementPlugin",
-    "file": "plugins/cordova-plugin-mas-identitymanagement/www/MASIdentityManagementPlugin.js",
-    "pluginId": "cordova-plugin-mas-identitymanagement",
-    "clobbers": [
-      "MASIdentityManagementPlugin"
-    ]
-  },
-  {
-    "id": "cordova-plugin-mas-identitymanagement.MASPluginFilteredRequest",
-    "file": "plugins/cordova-plugin-mas-identitymanagement/www/MASPluginFilteredRequest.js",
-    "pluginId": "cordova-plugin-mas-identitymanagement",
-    "clobbers": [
-      "MASPluginFilteredRequest"
-    ]
-  },
-  {
-    "id": "cordova-plugin-mas-identitymanagement.MASPluginFilterConstant",
-    "file": "plugins/cordova-plugin-mas-identitymanagement/www/MASPluginFilterConstant.js",
-    "pluginId": "cordova-plugin-mas-identitymanagement",
-    "clobbers": [
-      "MASPluginFilterConstant"
-    ]
-  },
-  {
     "id": "cordova-plugin-mas-connecta.MASConnectaPlugin",
     "file": "plugins/cordova-plugin-mas-connecta/www/MASConnectaPlugin.js",
     "pluginId": "cordova-plugin-mas-connecta",
@@ -174,7 +150,6 @@ module.exports.metadata =
 {
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-mas-core": "0.1.0",
-  "cordova-plugin-mas-identitymanagement": "0.1.0",
   "cordova-plugin-mas-connecta": "0.1.0"
 };
 // BOTTOM OF METADATA
