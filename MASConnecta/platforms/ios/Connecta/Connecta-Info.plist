@@ -13,7 +13,7 @@
     <key>CFBundleIcons~ipad</key>
     <dict/>
     <key>CFBundleIdentifier</key>
-    <string>com.ca.apim.connecta</string>
+    <string>com.ca.apim.Connecta</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -58,5 +58,7 @@
     <string>The application requires location services to connect to MAS backend services.</string>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>The application requires location services to connect to MAS backend services.</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>The application requires FaceId authentication.</string>
   </dict>
 </plist>
