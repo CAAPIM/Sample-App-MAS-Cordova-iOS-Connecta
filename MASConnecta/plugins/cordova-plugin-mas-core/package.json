@@ -1,35 +1,7 @@
 {
-  "_from": "cordova-plugin-mas-core",
-  "_id": "cordova-plugin-mas-core@1.7.12",
-  "_inBundle": false,
-  "_integrity": "sha512-ix2SAr5fW8yNgpUJkQQjD3/rCWQJeg8WiXiiq8WcZIEqvFbCAy43I4lnTs0JvdUKt2UQqkkaSkjXTKH4G4ZIgg==",
-  "_location": "/cordova-plugin-mas-core",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-mas-core",
-    "name": "cordova-plugin-mas-core",
-    "escapedName": "cordova-plugin-mas-core",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-mas-core/-/cordova-plugin-mas-core-1.7.12.tgz",
-  "_shasum": "f506619656d1ae9188372040de4f91e23d8e1d9c",
-  "_spec": "cordova-plugin-mas-core",
-  "_where": "/Users/yussy01/Desktop/SampleApps/MASConnecta",
-  "author": {
-    "name": "CA Technologies Ltd."
-  },
-  "bugs": {
-    "url": "https://github.com/CAAPIM/Cordova-MAS-Foundation/issues"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-plugin-mas-core",
+  "version": "1.8.00",
+  "description": "Cordova MAS Foundation Plugin",
   "cordova": {
     "id": "cordova-plugin-mas-core",
     "platforms": [
@@ -37,14 +9,10 @@
       "android"
     ]
   },
-  "dependencies": {
-    "filehound": "^1.16.2",
-    "plist": "^3.0.1",
-    "xcode": "^1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAAPIM/Cordova-MAS-Foundation.git"
   },
-  "deprecated": false,
-  "description": "Cordova MAS Foundation Plugin",
-  "homepage": "https://github.com/CAAPIM/Cordova-MAS-Foundation#readme",
   "keywords": [
     "cordova",
     "MAS",
@@ -53,11 +21,15 @@
     "cordova-ios",
     "cordova-android"
   ],
+  "author": "CA Technologies Ltd.",
   "license": "CA Technologies Ltd.",
-  "name": "cordova-plugin-mas-core",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CAAPIM/Cordova-MAS-Foundation.git"
+  "bugs": {
+    "url": "https://github.com/CAAPIM/Cordova-MAS-Foundation/issues"
   },
-  "version": "1.7.12"
+  "homepage": "https://github.com/CAAPIM/Cordova-MAS-Foundation#readme",
+  "dependencies": {
+    "filehound": "^1.16.2",
+    "plist": "^3.0.1",
+    "xcode": "^1.0.0"
+  }
 }

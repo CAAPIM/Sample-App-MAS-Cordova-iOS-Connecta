@@ -14,7 +14,7 @@
     "MASConnecta": {
         "name": "MASConnecta",
         "type": "podspec",
-        "spec": "~> 1.7.10",
+        "spec": "~> 1.8.00",
         "count": 1
     }
 }

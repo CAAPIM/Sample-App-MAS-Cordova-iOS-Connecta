@@ -7,20 +7,20 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-mas-connecta": {
+  "cordova-plugin-mas-core": {
     "source": {
-      "type": "registry",
-      "id": "cordova-plugin-mas-connecta"
+      "type": "local",
+      "path": "/Users/yussy01/Desktop/SampleApps/MASConnecta/node_modules/cordova-plugin-mas-core"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-mas-core": {
+  "cordova-plugin-mas-connecta": {
     "source": {
-      "type": "registry",
-      "id": "cordova-plugin-mas-core"
+      "type": "local",
+      "path": "/Users/yussy01/Desktop/SampleApps/MASConnecta/node_modules/cordova-plugin-mas-connecta"
     },
-    "is_top_level": false,
+    "is_top_level": true,
     "variables": {}
   }
 }
