@@ -12,15 +12,15 @@
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-mas-connecta": {}
+            "cordova-plugin-mas-core": {}
         },
         "platforms": [
             "ios"
         ]
     },
     "dependencies": {
-        "cordova-plugin-mas-connecta": "^1.7.12",
-        "cordova-plugin-mas-core": "^1.7.12",
+        "cordova-plugin-mas-connecta": "file:../../../WorkSpace/MAS/Cordova/Dev/MAS-Connecta-Cordova",
+        "cordova-plugin-mas-core": "file:../../../WorkSpace/MAS/Cordova/Dev/MAS-Foundation-Cordova",
         "cordova-plugin-whitelist": "^1.3.3",
         "cordova-ios": "/Users/yussy01/WorkSpace/MAS/Cordova/Dev/mas-cli/Support/cordova-ios/"
     }

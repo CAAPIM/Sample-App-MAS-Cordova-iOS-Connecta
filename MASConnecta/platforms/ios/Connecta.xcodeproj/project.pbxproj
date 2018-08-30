@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		021171FEFAC04C8584A2B905 /* MASPluginDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D871D057694D4685B2CB944B /* MASPluginDevice.m */; };
-		1A95F1A6A99B4648A7D28332 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5206A61823154E67BB0853A0 /* WebViewController.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		211E183EC656421EBE6C4A0C /* MASConnectaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F69038E46D84F6B8E1AA9D2 /* MASConnectaPlugin.m */; };
+		26891AADE3714B099F3D0878 /* MASPluginApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 121E5301A80C42D48DAE68FA /* MASPluginApplication.m */; };
+		268DC07C73D342F8A5B7AE5D /* MASPluginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F14901950C3434DAD5CF2EE /* MASPluginUser.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		34A7102C3EA741759BD31A09 /* MASConnectaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5C2E83EE8D4E68B6D24706 /* MASConnectaPlugin.m */; };
-		456EF852CA9A8250DF5E2031 /* libPods-Connecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9094D3BA55967993A58F86 /* libPods-Connecta.a */; };
-		663897986980475FB8FFCD24 /* MASPluginGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1A2A83E3F34F70B4EFDCC6 /* MASPluginGroup.m */; };
+		4037F40C1B71410BBD765B0E /* EnterpriseBrowser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2DE8AAB9149D4825C2DCB /* EnterpriseBrowser.storyboard */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		70097EB1962E402292B3F235 /* EnterpriseBrowser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828C0F38464C4A28A53BD3D5 /* EnterpriseBrowser.storyboard */; };
-		72111A57982F4B1DBC2F8236 /* MASPluginApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EB7EADC9E24D7D92CBAB79 /* MASPluginApplication.m */; };
-		7668E7480DB94B338A04F5EB /* MASPluginAuthProviders.m in Sources */ = {isa = PBXBuildFile; fileRef = DD93845655374C99A9CE176B /* MASPluginAuthProviders.m */; };
-		AE282FCB1CA84E77ACCBE350 /* MASPluginMQTTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 80489FA235A44F3AA9C4E271 /* MASPluginMQTTMessage.m */; };
-		C4D7822B64E94BB69ECA1FE5 /* MASPluginAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74CB86F329C488E986A6D01 /* MASPluginAuthenticationController.m */; };
-		E249824CB5AB4AF5BE17DEE3 /* MASPluginMAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 2329545243064604AE007665 /* MASPluginMAS.m */; };
-		EFDA78C443A44467A6A066CE /* MASPluginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4953341A56064A93B8EA69B7 /* MASPluginUser.m */; };
+		79712ACA86D9D3862B9D9C8B /* libPods-Connecta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 779C61E15F9DC5944874F5B5 /* libPods-Connecta.a */; };
+		7B2B223D83864BFAAD9D146E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E50DE8ADF384C15BB4EB52A /* WebViewController.m */; };
+		84298844DF8544599E38DCE3 /* MASPluginDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F02F72F84C34FA6B8ED2440 /* MASPluginDevice.m */; };
+		8937CD1669A647EF90C4538D /* MASPluginAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6866950AC09457685D27760 /* MASPluginAuthenticationController.m */; };
+		8B890D25CA95419BAF1949C0 /* MASPluginMAS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF52869429243AB9D081639 /* MASPluginMAS.m */; };
+		92AB8E7DAC0048D49E8E2BED /* MASPluginGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E833A0A2E4FDFBAA6D917 /* MASPluginGroup.m */; };
+		A8B2923C2136A60900927B56 /* MASConnecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292362136A5F500927B56 /* MASConnecta.framework */; };
+		A8B2923D2136A60900927B56 /* MASConnecta.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292362136A5F500927B56 /* MASConnecta.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8B2923E2136A60900927B56 /* MASFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292372136A5F500927B56 /* MASFoundation.framework */; };
+		A8B2923F2136A60900927B56 /* MASFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292372136A5F500927B56 /* MASFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8B292402136A60900927B56 /* MASIdentityManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292352136A5F500927B56 /* MASIdentityManagement.framework */; };
+		A8B292412136A60900927B56 /* MASIdentityManagement.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292352136A5F500927B56 /* MASIdentityManagement.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8B292422136A60900927B56 /* MASUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292312136A5F400927B56 /* MASUI.framework */; };
+		A8B292432136A60900927B56 /* MASUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A8B292312136A5F400927B56 /* MASUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E21C9290299F49D2BFDDB36C /* MASPluginAuthProviders.m in Sources */ = {isa = PBXBuildFile; fileRef = 9649A026D6834BB69ACA57AF /* MASPluginAuthProviders.m */; };
+		F2D373CF9FB94FD48FDDDEE5 /* MASPluginMQTTMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF72455D9204663B9FBFAA5 /* MASPluginMQTTMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +51,7 @@
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = CordovaLib;
 		};
-		A86E1B8920F78BC800856BB6 /* PBXContainerItemProxy */ = {
+		A8B292332136A5F400927B56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
 			proxyType = 2;
@@ -52,16 +60,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A8B292442136A60900927B56 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A8B2923D2136A60900927B56 /* MASConnecta.framework in Embed Frameworks */,
+				A8B2923F2136A60900927B56 /* MASFoundation.framework in Embed Frameworks */,
+				A8B292432136A60900927B56 /* MASUI.framework in Embed Frameworks */,
+				A8B292412136A60900927B56 /* MASIdentityManagement.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Connecta/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		1605D8CF070E4359ACBCBD33 /* MASPluginUser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginUser.h; path = "cordova-plugin-mas-core/MASPluginUser.h"; sourceTree = "<group>"; };
+		04F28B55910847CE820D9B70 /* MASPluginGroup.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginGroup.h; path = "cordova-plugin-mas-core/MASPluginGroup.h"; sourceTree = "<group>"; };
+		0F14901950C3434DAD5CF2EE /* MASPluginUser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginUser.m; path = "cordova-plugin-mas-core/MASPluginUser.m"; sourceTree = "<group>"; };
+		121E5301A80C42D48DAE68FA /* MASPluginApplication.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginApplication.m; path = "cordova-plugin-mas-core/MASPluginApplication.m"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Connecta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connecta.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2329545243064604AE007665 /* MASPluginMAS.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginMAS.m; path = "cordova-plugin-mas-core/MASPluginMAS.m"; sourceTree = "<group>"; };
+		1E50DE8ADF384C15BB4EB52A /* WebViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = "cordova-plugin-mas-core/WebViewController.m"; sourceTree = "<group>"; };
+		2996D66D3BA148AA8745E528 /* MASPluginMQTTMessage.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginMQTTMessage.h; path = "cordova-plugin-mas-connecta/MASPluginMQTTMessage.h"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A1A2A83E3F34F70B4EFDCC6 /* MASPluginGroup.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginGroup.m; path = "cordova-plugin-mas-core/MASPluginGroup.m"; sourceTree = "<group>"; };
-		2ADD518F4AD04F268688D1BF /* MASPluginGroup.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginGroup.h; path = "cordova-plugin-mas-core/MASPluginGroup.h"; sourceTree = "<group>"; };
+		2D2EC2D0E4DA415DA5E21AF4 /* MASPluginAuthProviders.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginAuthProviders.h; path = "cordova-plugin-mas-core/MASPluginAuthProviders.h"; sourceTree = "<group>"; };
+		2F69038E46D84F6B8E1AA9D2 /* MASConnectaPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASConnectaPlugin.m; path = "cordova-plugin-mas-connecta/MASConnectaPlugin.m"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -71,30 +99,31 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* Connecta-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Connecta-Prefix.pch"; sourceTree = "<group>"; };
-		428D82C8F3714AA99A64A361 /* MASPluginAuthProviders.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginAuthProviders.h; path = "cordova-plugin-mas-core/MASPluginAuthProviders.h"; sourceTree = "<group>"; };
-		4953341A56064A93B8EA69B7 /* MASPluginUser.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginUser.m; path = "cordova-plugin-mas-core/MASPluginUser.m"; sourceTree = "<group>"; };
-		4A7F3DCA6795412AB7D728F2 /* WebViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "cordova-plugin-mas-core/WebViewController.h"; sourceTree = "<group>"; };
-		5206A61823154E67BB0853A0 /* WebViewController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = "cordova-plugin-mas-core/WebViewController.m"; sourceTree = "<group>"; };
+		3F02F72F84C34FA6B8ED2440 /* MASPluginDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginDevice.m; path = "cordova-plugin-mas-core/MASPluginDevice.m"; sourceTree = "<group>"; };
+		3F628CCCD1034D94AD1FC3FA /* WebViewController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "cordova-plugin-mas-core/WebViewController.h"; sourceTree = "<group>"; };
+		462E833A0A2E4FDFBAA6D917 /* MASPluginGroup.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginGroup.m; path = "cordova-plugin-mas-core/MASPluginGroup.m"; sourceTree = "<group>"; };
+		4CF72455D9204663B9FBFAA5 /* MASPluginMQTTMessage.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginMQTTMessage.m; path = "cordova-plugin-mas-connecta/MASPluginMQTTMessage.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = Connecta/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		6C43EC9BD9E8463E96E0F36D /* MASPluginAuthenticationController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginAuthenticationController.h; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.h"; sourceTree = "<group>"; };
-		80489FA235A44F3AA9C4E271 /* MASPluginMQTTMessage.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginMQTTMessage.m; path = "cordova-plugin-mas-connecta/MASPluginMQTTMessage.m"; sourceTree = "<group>"; };
-		81D6D31564864497ADA3401A /* MASConnectaPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASConnectaPlugin.h; path = "cordova-plugin-mas-connecta/MASConnectaPlugin.h"; sourceTree = "<group>"; };
-		828C0F38464C4A28A53BD3D5 /* EnterpriseBrowser.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = EnterpriseBrowser.storyboard; sourceTree = "<group>"; };
+		6EF52869429243AB9D081639 /* MASPluginMAS.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginMAS.m; path = "cordova-plugin-mas-core/MASPluginMAS.m"; sourceTree = "<group>"; };
+		779C61E15F9DC5944874F5B5 /* libPods-Connecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Connecta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CC30F7786E4AF09BE73D1C /* MASPluginMAS.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginMAS.h; path = "cordova-plugin-mas-core/MASPluginMAS.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Connecta-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Connecta-Info.plist"; path = "Connecta/Connecta-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		9D2946574D3A48E784E50D1E /* MASPluginMQTTMessage.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginMQTTMessage.h; path = "cordova-plugin-mas-connecta/MASPluginMQTTMessage.h"; sourceTree = "<group>"; };
-		A5EB7EADC9E24D7D92CBAB79 /* MASPluginApplication.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginApplication.m; path = "cordova-plugin-mas-core/MASPluginApplication.m"; sourceTree = "<group>"; };
-		A86E1B8B20F78BF100856BB6 /* Connecta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Connecta.entitlements; path = Connecta/Connecta.entitlements; sourceTree = "<group>"; };
-		BD5C2E83EE8D4E68B6D24706 /* MASConnectaPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASConnectaPlugin.m; path = "cordova-plugin-mas-connecta/MASConnectaPlugin.m"; sourceTree = "<group>"; };
-		C6831BC87ABA4E388AC61684 /* MASPluginMAS.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginMAS.h; path = "cordova-plugin-mas-core/MASPluginMAS.h"; sourceTree = "<group>"; };
-		D871D057694D4685B2CB944B /* MASPluginDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginDevice.m; path = "cordova-plugin-mas-core/MASPluginDevice.m"; sourceTree = "<group>"; };
-		DCA3D891E28B4B4DB85F7182 /* MASPluginDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginDevice.h; path = "cordova-plugin-mas-core/MASPluginDevice.h"; sourceTree = "<group>"; };
-		DD93845655374C99A9CE176B /* MASPluginAuthProviders.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginAuthProviders.m; path = "cordova-plugin-mas-core/MASPluginAuthProviders.m"; sourceTree = "<group>"; };
-		E74CB86F329C488E986A6D01 /* MASPluginAuthenticationController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginAuthenticationController.m; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.m"; sourceTree = "<group>"; };
-		EA9094D3BA55967993A58F86 /* libPods-Connecta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Connecta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B2DE8AAB9149D4825C2DCB /* EnterpriseBrowser.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = EnterpriseBrowser.storyboard; sourceTree = "<group>"; };
+		9649A026D6834BB69ACA57AF /* MASPluginAuthProviders.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginAuthProviders.m; path = "cordova-plugin-mas-core/MASPluginAuthProviders.m"; sourceTree = "<group>"; };
+		A6866950AC09457685D27760 /* MASPluginAuthenticationController.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = MASPluginAuthenticationController.m; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.m"; sourceTree = "<group>"; };
+		A8B292312136A5F400927B56 /* MASUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASUI.framework; sourceTree = "<group>"; };
+		A8B292352136A5F500927B56 /* MASIdentityManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASIdentityManagement.framework; sourceTree = "<group>"; };
+		A8B292362136A5F500927B56 /* MASConnecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASConnecta.framework; sourceTree = "<group>"; };
+		A8B292372136A5F500927B56 /* MASFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASFoundation.framework; sourceTree = "<group>"; };
+		A8B292452136A62B00927B56 /* Connecta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Connecta.entitlements; path = Connecta/Connecta.entitlements; sourceTree = "<group>"; };
+		AE1088FFAF1C4EC9A1824908 /* MASPluginDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginDevice.h; path = "cordova-plugin-mas-core/MASPluginDevice.h"; sourceTree = "<group>"; };
+		B40C8254DE7341878B6FDBA6 /* MASConnectaPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASConnectaPlugin.h; path = "cordova-plugin-mas-connecta/MASConnectaPlugin.h"; sourceTree = "<group>"; };
+		C54AC5A1BED3472990D2C5D1 /* MASPluginApplication.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginApplication.h; path = "cordova-plugin-mas-core/MASPluginApplication.h"; sourceTree = "<group>"; };
+		D85395816726438AB43B10FC /* MASPluginUser.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginUser.h; path = "cordova-plugin-mas-core/MASPluginUser.h"; sourceTree = "<group>"; };
+		EAE11A9E28F44F678CF38A1B /* MASPluginAuthenticationController.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginAuthenticationController.h; path = "cordova-plugin-mas-core/MASPluginAuthenticationController.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		EE9A513DEB0A4EDFB52246B3 /* MASPluginApplication.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = MASPluginApplication.h; path = "cordova-plugin-mas-core/MASPluginApplication.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = Connecta/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +133,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				456EF852CA9A8250DF5E2031 /* libPods-Connecta.a in Frameworks */,
+				A8B2923C2136A60900927B56 /* MASConnecta.framework in Frameworks */,
+				A8B292422136A60900927B56 /* MASUI.framework in Frameworks */,
+				A8B292402136A60900927B56 /* MASIdentityManagement.framework in Frameworks */,
+				79712ACA86D9D3862B9D9C8B /* libPods-Connecta.a in Frameworks */,
+				A8B2923E2136A60900927B56 /* MASFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +168,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				A86E1B8B20F78BF100856BB6 /* Connecta.entitlements */,
+				A8B292452136A62B00927B56 /* Connecta.entitlements */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
@@ -146,7 +179,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				EFDAF76E1803108BBA8A7FC6 /* Pods */,
+				E81101B8D4EB8933DA29711E /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -169,7 +202,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* Connecta-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
-				828C0F38464C4A28A53BD3D5 /* EnterpriseBrowser.storyboard */,
+				94B2DE8AAB9149D4825C2DCB /* EnterpriseBrowser.storyboard */,
 			);
 			name = Resources;
 			path = Connecta/Resources;
@@ -178,7 +211,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA9094D3BA55967993A58F86 /* libPods-Connecta.a */,
+				A8B292362136A5F500927B56 /* MASConnecta.framework */,
+				A8B292372136A5F500927B56 /* MASFoundation.framework */,
+				A8B292352136A5F500927B56 /* MASIdentityManagement.framework */,
+				A8B292312136A5F400927B56 /* MASUI.framework */,
+				779C61E15F9DC5944874F5B5 /* libPods-Connecta.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				301BF535109A57CC0062928A /* libCordova.a */,
-				A86E1B8A20F78BC800856BB6 /* Cordova.framework */,
+				A8B292342136A5F400927B56 /* Cordova.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,30 +242,37 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				2329545243064604AE007665 /* MASPluginMAS.m */,
-				4953341A56064A93B8EA69B7 /* MASPluginUser.m */,
-				2A1A2A83E3F34F70B4EFDCC6 /* MASPluginGroup.m */,
-				D871D057694D4685B2CB944B /* MASPluginDevice.m */,
-				A5EB7EADC9E24D7D92CBAB79 /* MASPluginApplication.m */,
-				DD93845655374C99A9CE176B /* MASPluginAuthProviders.m */,
-				E74CB86F329C488E986A6D01 /* MASPluginAuthenticationController.m */,
-				5206A61823154E67BB0853A0 /* WebViewController.m */,
-				C6831BC87ABA4E388AC61684 /* MASPluginMAS.h */,
-				1605D8CF070E4359ACBCBD33 /* MASPluginUser.h */,
-				2ADD518F4AD04F268688D1BF /* MASPluginGroup.h */,
-				DCA3D891E28B4B4DB85F7182 /* MASPluginDevice.h */,
-				EE9A513DEB0A4EDFB52246B3 /* MASPluginApplication.h */,
-				428D82C8F3714AA99A64A361 /* MASPluginAuthProviders.h */,
-				6C43EC9BD9E8463E96E0F36D /* MASPluginAuthenticationController.h */,
-				4A7F3DCA6795412AB7D728F2 /* WebViewController.h */,
-				BD5C2E83EE8D4E68B6D24706 /* MASConnectaPlugin.m */,
-				80489FA235A44F3AA9C4E271 /* MASPluginMQTTMessage.m */,
-				81D6D31564864497ADA3401A /* MASConnectaPlugin.h */,
-				9D2946574D3A48E784E50D1E /* MASPluginMQTTMessage.h */,
+				6EF52869429243AB9D081639 /* MASPluginMAS.m */,
+				0F14901950C3434DAD5CF2EE /* MASPluginUser.m */,
+				462E833A0A2E4FDFBAA6D917 /* MASPluginGroup.m */,
+				3F02F72F84C34FA6B8ED2440 /* MASPluginDevice.m */,
+				121E5301A80C42D48DAE68FA /* MASPluginApplication.m */,
+				9649A026D6834BB69ACA57AF /* MASPluginAuthProviders.m */,
+				A6866950AC09457685D27760 /* MASPluginAuthenticationController.m */,
+				1E50DE8ADF384C15BB4EB52A /* WebViewController.m */,
+				89CC30F7786E4AF09BE73D1C /* MASPluginMAS.h */,
+				D85395816726438AB43B10FC /* MASPluginUser.h */,
+				04F28B55910847CE820D9B70 /* MASPluginGroup.h */,
+				AE1088FFAF1C4EC9A1824908 /* MASPluginDevice.h */,
+				C54AC5A1BED3472990D2C5D1 /* MASPluginApplication.h */,
+				2D2EC2D0E4DA415DA5E21AF4 /* MASPluginAuthProviders.h */,
+				EAE11A9E28F44F678CF38A1B /* MASPluginAuthenticationController.h */,
+				3F628CCCD1034D94AD1FC3FA /* WebViewController.h */,
+				2F69038E46D84F6B8E1AA9D2 /* MASConnectaPlugin.m */,
+				4CF72455D9204663B9FBFAA5 /* MASPluginMQTTMessage.m */,
+				B40C8254DE7341878B6FDBA6 /* MASConnectaPlugin.h */,
+				2996D66D3BA148AA8745E528 /* MASPluginMQTTMessage.h */,
 			);
 			name = Plugins;
 			path = Connecta/Plugins;
 			sourceTree = SOURCE_ROOT;
+		};
+		E81101B8D4EB8933DA29711E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
 		};
 		EB87FDF11871DA420020F90C /* Staging */ = {
 			isa = PBXGroup;
@@ -239,13 +283,6 @@
 			name = Staging;
 			sourceTree = "<group>";
 		};
-		EFDAF76E1803108BBA8A7FC6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -253,14 +290,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Connecta" */;
 			buildPhases = (
-				158898FD82BB4ACC15BC5CDE /* [CP] Check Pods Manifest.lock */,
+				EC7F0378836E10B4CD41B74F /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				279A27DCBFB3ACECD60FB5F7 /* [CP] Embed Pods Frameworks */,
-				61285FFB7331C396452C4357 /* [CP] Copy Pods Resources */,
-				5E14D4B1620E42EBBB3839A4 /* Run a script */,
+				095383CBD1854719B83DC425 /* Run a script */,
+				A8B292442136A60900927B56 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,11 +358,11 @@
 			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		A86E1B8A20F78BC800856BB6 /* Cordova.framework */ = {
+		A8B292342136A5F400927B56 /* Cordova.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Cordova.framework;
-			remoteRef = A86E1B8920F78BC800856BB6 /* PBXContainerItemProxy */;
+			remoteRef = A8B292332136A5F400927B56 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -339,14 +375,43 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
-				70097EB1962E402292B3F235 /* EnterpriseBrowser.storyboard in Resources */,
+				4037F40C1B71410BBD765B0E /* EnterpriseBrowser.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		158898FD82BB4ACC15BC5CDE /* [CP] Check Pods Manifest.lock */ = {
+		095383CBD1854719B83DC425 /* Run a script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run a script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
+		};
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+		EC7F0378836E10B4CD41B74F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,74 +429,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		279A27DCBFB3ACECD60FB5F7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Connecta/Pods-Connecta-frameworks.sh",
-				"${PODS_ROOT}/MASConnecta/MASConnecta.framework",
-				"${PODS_ROOT}/MASFoundation/MASFoundation.framework",
-				"${PODS_ROOT}/MASIdentityManagement/MASIdentityManagement.framework",
-				"${PODS_ROOT}/MASUI/MASUI.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASConnecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASFoundation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASIdentityManagement.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASUI.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connecta/Pods-Connecta-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		304B58A110DAC018002A0835 /* Copy www directory */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy www directory";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
-			showEnvVarsInLog = 0;
-		};
-		5E14D4B1620E42EBBB3839A4 /* Run a script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Run a script";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "APP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\n# This script loops through the frameworks embedded in the application and\n# removes unused architectures.\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\n\nEXTRACTED_ARCHS=()\n\nfor ARCH in $ARCHS\ndo\necho \"Extracting $ARCH from $FRAMEWORK_EXECUTABLE_NAME\"\nlipo -extract \"$ARCH\" \"$FRAMEWORK_EXECUTABLE_PATH\" -o \"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\"\nEXTRACTED_ARCHS+=(\"$FRAMEWORK_EXECUTABLE_PATH-$ARCH\")\ndone\n\necho \"Merging extracted architectures: ${ARCHS}\"\nlipo -o \"$FRAMEWORK_EXECUTABLE_PATH-merged\" -create \"${EXTRACTED_ARCHS[@]}\"\nrm \"${EXTRACTED_ARCHS[@]}\"\n\necho \"Replacing original executable with thinned version\"\nrm \"$FRAMEWORK_EXECUTABLE_PATH\"\nmv \"$FRAMEWORK_EXECUTABLE_PATH-merged\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n\ndone";
-		};
-		61285FFB7331C396452C4357 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connecta/Pods-Connecta-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -442,16 +439,16 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				E249824CB5AB4AF5BE17DEE3 /* MASPluginMAS.m in Sources */,
-				EFDA78C443A44467A6A066CE /* MASPluginUser.m in Sources */,
-				663897986980475FB8FFCD24 /* MASPluginGroup.m in Sources */,
-				021171FEFAC04C8584A2B905 /* MASPluginDevice.m in Sources */,
-				72111A57982F4B1DBC2F8236 /* MASPluginApplication.m in Sources */,
-				7668E7480DB94B338A04F5EB /* MASPluginAuthProviders.m in Sources */,
-				C4D7822B64E94BB69ECA1FE5 /* MASPluginAuthenticationController.m in Sources */,
-				1A95F1A6A99B4648A7D28332 /* WebViewController.m in Sources */,
-				34A7102C3EA741759BD31A09 /* MASConnectaPlugin.m in Sources */,
-				AE282FCB1CA84E77ACCBE350 /* MASPluginMQTTMessage.m in Sources */,
+				8B890D25CA95419BAF1949C0 /* MASPluginMAS.m in Sources */,
+				268DC07C73D342F8A5B7AE5D /* MASPluginUser.m in Sources */,
+				92AB8E7DAC0048D49E8E2BED /* MASPluginGroup.m in Sources */,
+				84298844DF8544599E38DCE3 /* MASPluginDevice.m in Sources */,
+				26891AADE3714B099F3D0878 /* MASPluginApplication.m in Sources */,
+				E21C9290299F49D2BFDDB36C /* MASPluginAuthProviders.m in Sources */,
+				8937CD1669A647EF90C4538D /* MASPluginAuthenticationController.m in Sources */,
+				7B2B223D83864BFAAD9D146E /* WebViewController.m in Sources */,
+				211E183EC656421EBE6C4A0C /* MASConnectaPlugin.m in Sources */,
+				F2D373CF9FB94FD48FDDDEE5 /* MASPluginMQTTMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +475,10 @@
 				CODE_SIGN_ENTITLEMENTS = Connecta/Connecta.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = RAKRWMN9VH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -505,6 +506,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = RAKRWMN9VH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Connecta/Connecta-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;

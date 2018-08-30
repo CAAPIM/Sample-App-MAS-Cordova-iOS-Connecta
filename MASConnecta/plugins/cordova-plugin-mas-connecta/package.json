@@ -1,35 +1,7 @@
 {
-  "_from": "cordova-plugin-mas-connecta",
-  "_id": "cordova-plugin-mas-connecta@1.7.12",
-  "_inBundle": false,
-  "_integrity": "sha512-mBLeVti2QFSwkS2gWnOaKSK92itktpBBHXmAThBapTPGR9k7rPdMB6r59JeWiKJPZ/KwXFBboDLsr3u/6OqxIQ==",
-  "_location": "/cordova-plugin-mas-connecta",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-mas-connecta",
-    "name": "cordova-plugin-mas-connecta",
-    "escapedName": "cordova-plugin-mas-connecta",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-mas-connecta/-/cordova-plugin-mas-connecta-1.7.12.tgz",
-  "_shasum": "d78b06e45aaae24f40c38e78c6a6d3c8091cc984",
-  "_spec": "cordova-plugin-mas-connecta",
-  "_where": "/Users/yussy01/Desktop/SampleApps/MASConnecta",
-  "author": {
-    "name": "CA Technologies Ltd."
-  },
-  "bugs": {
-    "url": "https://github.com/CAAPIM/Cordova-MAS-Connecta/issues"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-plugin-mas-connecta",
+  "version": "1.8.00",
+  "description": "Cordova MAS Connecta Plugin",
   "cordova": {
     "id": "cordova-plugin-mas-connecta",
     "platforms": [
@@ -37,9 +9,10 @@
       "android"
     ]
   },
-  "deprecated": false,
-  "description": "Cordova MAS Connecta Plugin",
-  "homepage": "https://github.com/CAAPIM/Cordova-MAS-Connecta#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAAPIM/Cordova-MAS-Connecta.git"
+  },
   "keywords": [
     "cordova",
     "MASConnecta",
@@ -48,11 +21,10 @@
     "cordova-ios",
     "cordova-android"
   ],
+  "author": "CA Technologies Ltd.",
   "license": "CA Technologies Ltd.",
-  "name": "cordova-plugin-mas-connecta",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CAAPIM/Cordova-MAS-Connecta.git"
+  "bugs": {
+    "url": "https://github.com/CAAPIM/Cordova-MAS-Connecta/issues"
   },
-  "version": "1.7.12"
+  "homepage": "https://github.com/CAAPIM/Cordova-MAS-Connecta#readme"
 }
