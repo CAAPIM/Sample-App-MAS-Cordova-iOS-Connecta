@@ -2,19 +2,19 @@
     "MASFoundation": {
         "name": "MASFoundation",
         "type": "podspec",
-        "spec": "~> 1.7.10",
+        "spec": "~> 1.9.00-RC1",
         "count": 1
     },
     "MASUI": {
         "name": "MASUI",
         "type": "podspec",
-        "spec": "~> 1.7.10",
+        "spec": "~> 1.9.00-RC1",
         "count": 1
     },
     "MASConnecta": {
         "name": "MASConnecta",
         "type": "podspec",
-        "spec": "~> 1.8.00",
+        "spec": "~> 1.9.00-rc1",
         "count": 1
     }
 }

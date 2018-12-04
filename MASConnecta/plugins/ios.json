@@ -10,9 +10,13 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.ca.apim.Connecta"
     },
-    "cordova-plugin-mas-core": {
+    "cordova-plugin-mas-connecta": {
       "PACKAGE_NAME": "com.ca.apim.Connecta"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-mas-core": {
+      "PACKAGE_NAME": "com.ca.apim.Connecta"
+    }
+  }
 }
