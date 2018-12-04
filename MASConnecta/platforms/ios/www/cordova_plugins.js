@@ -149,8 +149,8 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "cordova-plugin-whitelist": "1.3.3",
-  "cordova-plugin-mas-core": "0.1.0",
-  "cordova-plugin-mas-connecta": "0.1.0"
+  "cordova-plugin-mas-core": "1.9.00-beta2",
+  "cordova-plugin-mas-connecta": "1.9.0-beta2"
 };
 // BOTTOM OF METADATA
 });

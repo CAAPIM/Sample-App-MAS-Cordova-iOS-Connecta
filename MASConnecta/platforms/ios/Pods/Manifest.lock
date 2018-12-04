@@ -1,3 +1,31 @@
-PODFILE CHECKSUM: d217e9a081d12d318c423c35ee1414152d9a7588
+PODS:
+  - MASConnecta (1.9.00-rc1):
+    - MASFoundation (= 1.9.00-rc1)
+    - MASIdentityManagement (= 1.9.00-rc1)
+  - MASFoundation (1.9.00-rc1)
+  - MASIdentityManagement (1.9.00-rc1):
+    - MASFoundation (= 1.9.00-rc1)
+  - MASUI (1.9.00-rc1):
+    - MASFoundation (= 1.9.00-rc1)
+
+DEPENDENCIES:
+  - MASConnecta (~> 1.9.00-rc1)
+  - MASFoundation (~> 1.9.00-RC1)
+  - MASUI (~> 1.9.00-RC1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MASConnecta
+    - MASFoundation
+    - MASIdentityManagement
+    - MASUI
+
+SPEC CHECKSUMS:
+  MASConnecta: 5b0895df12bf374087829d534f195bef2c5a5cd2
+  MASFoundation: f8477c77c1c8687a477f49457cd156ab28e0c5eb
+  MASIdentityManagement: 872fc5ed6f43a4d729db41d08e2ac5682ac94436
+  MASUI: fc0046f7ba24f15bd1a65929fb109c87f11e7dac
+
+PODFILE CHECKSUM: 93d5cf91263ffaf15d1d5840a2e5b50d21bba184
 
 COCOAPODS: 1.5.3
