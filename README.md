@@ -10,4 +10,4 @@ pod update; pod install
 
 ```
 
-In case, if you need to work with native libraries directly i.e. not using the Cocoapods denpendecy injection, then follow the steps mentioned in [*MAS Cordova Developer Guide*](http://mas.ca.com/docs/cordova/1.8.00/guides/) under the section Developer Mode.
+In case, if you need to work with native libraries directly i.e. not using the Cocoapods denpendecy injection, then follow the steps mentioned in [*MAS Cordova Developer Guide*](http://mas.ca.com/docs/cordova/latest/guides/) under the section Developer Mode.
