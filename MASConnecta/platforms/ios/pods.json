@@ -1,20 +1,31 @@
 {
-    "MASFoundation": {
-        "name": "MASFoundation",
-        "type": "podspec",
-        "spec": "~> 1.9.00-RC1",
-        "count": 1
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 2
+        }
     },
-    "MASUI": {
-        "name": "MASUI",
-        "type": "podspec",
-        "spec": "~> 1.9.00-RC1",
-        "count": 1
+    "sources": {
+        "https://github.com/CocoaPods/Specs.git": {
+            "source": "https://github.com/CocoaPods/Specs.git",
+            "count": 2
+        }
     },
-    "MASConnecta": {
-        "name": "MASConnecta",
-        "type": "podspec",
-        "spec": "~> 1.9.00-rc1",
-        "count": 1
+    "libraries": {
+        "MASFoundation": {
+            "name": "MASFoundation",
+            "spec": "~> 2.0.00",
+            "count": 1
+        },
+        "MASUI": {
+            "name": "MASUI",
+            "spec": "~> 2.0.00",
+            "count": 1
+        },
+        "MASConnecta": {
+            "name": "MASConnecta",
+            "spec": "~> 2.0.00",
+            "count": 1
+        }
     }
 }

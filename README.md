@@ -1,7 +1,7 @@
 # Sample-App-MAS-Cordova-iOS-Connecta
 
 1. In Xcode, drag and drop the msso_config.json file anywhere in the app. On the confirmation dialog, verify that Destination: ‘Copy Items if Needed’ is checked.
-2. This app depends upon the MAS iOS Native dependencies 1.9.00, which have been already ingested into the build file i.e. you don't need to make any change in build configurations. Just open the app in XCode, build and run.
+2. This app depends upon the MAS iOS Native dependencies 2.0.00, which have been already ingested into the build file i.e. you don't need to make any change in build configurations. Just open the app in XCode, build and run.
 3. If you want to point to latest MAS iOS Native dependencies, run the following command :
 
 ```
