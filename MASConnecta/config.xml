@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ca.apim.Connecta" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>MASConnecta</name>
+<widget id="com.ca.apim.connectaapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>connectaapp</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -23,6 +23,4 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-mas-connecta" spec="/Users/yussy01/WorkSpace/MAS/Cordova/Dev/MAS-Connecta-Cordova" />
-    <engine name="ios" spec="/Users/yussy01/WorkSpace/MAS/Cordova/Dev/mas-cli/Support/cordova-ios" />
 </widget>

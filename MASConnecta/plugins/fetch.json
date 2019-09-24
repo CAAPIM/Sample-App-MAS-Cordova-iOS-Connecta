@@ -7,20 +7,20 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-mas-connecta": {
+  "cordova-plugin-mas-core": {
     "source": {
       "type": "local",
-      "path": "/Users/yussy01/Desktop/SampleApps/MASConnecta/node_modules/cordova-plugin-mas-connecta"
+      "path": "/Users/yussy01/Workspace/Cordova/Release/2.0.00/test/connectaapp/node_modules/cordova-plugin-mas-core"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-mas-core": {
+  "cordova-plugin-mas-connecta": {
     "source": {
-      "type": "registry",
-      "id": "cordova-plugin-mas-core@1.9.0-beta2"
+      "type": "local",
+      "path": "/Users/yussy01/Workspace/Cordova/Release/2.0.00/test/connectaapp/node_modules/cordova-plugin-mas-connecta"
     },
-    "is_top_level": false,
+    "is_top_level": true,
     "variables": {}
   }
 }

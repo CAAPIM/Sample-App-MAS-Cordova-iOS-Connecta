@@ -47,13 +47,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.ca.apim.Connecta"
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
     "cordova-plugin-mas-core": {
-      "PACKAGE_NAME": "com.ca.apim.Connecta"
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     },
     "cordova-plugin-mas-connecta": {
-      "PACKAGE_NAME": "com.ca.apim.Connecta"
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
     }
   },
   "dependent_plugins": {},
@@ -139,6 +139,14 @@
       ]
     },
     {
+      "id": "cordova-plugin-mas-core.MASPluginMultipartForm",
+      "file": "plugins/cordova-plugin-mas-core/www/MASPluginMultipartForm.js",
+      "pluginId": "cordova-plugin-mas-core",
+      "clobbers": [
+        "MASPluginMultipartForm"
+      ]
+    },
+    {
       "id": "cordova-plugin-mas-core.PopupUI",
       "file": "plugins/cordova-plugin-mas-core/www/simple-popup.js",
       "pluginId": "cordova-plugin-mas-core",
@@ -204,8 +212,8 @@
     }
   ],
   "plugin_metadata": {
-    "cordova-plugin-whitelist": "1.3.3",
-    "cordova-plugin-mas-core": "1.9.00-beta2",
-    "cordova-plugin-mas-connecta": "1.9.0-beta2"
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-mas-core": "2.0.0",
+    "cordova-plugin-mas-connecta": "2.0.0"
   }
 }
