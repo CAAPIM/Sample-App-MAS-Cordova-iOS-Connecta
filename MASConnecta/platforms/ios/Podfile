@@ -2,9 +2,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '9.0'
 use_frameworks!
-target 'connectaapp' do
-	project 'connectaapp.xcodeproj'
-	pod 'MASFoundation', '~> 2.0.00'
-	pod 'MASUI', '~> 2.0.00'
-	pod 'MASConnecta', '~> 2.0.00'
+target 'MASConnecta' do
+	project 'MASConnecta.xcodeproj'
+	pod 'MASFoundation', '~> 2.1.00'
+	pod 'MASUI', '~> 2.1.00'
 end
