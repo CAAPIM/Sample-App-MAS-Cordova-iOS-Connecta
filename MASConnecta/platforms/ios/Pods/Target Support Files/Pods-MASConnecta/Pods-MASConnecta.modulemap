@@ -1,0 +1,6 @@
+framework module Pods_MASConnecta {
+  umbrella header "Pods-MASConnecta-umbrella.h"
+
+  export *
+  module * { export * }
+}

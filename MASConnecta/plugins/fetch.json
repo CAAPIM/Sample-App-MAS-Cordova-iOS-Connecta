@@ -10,7 +10,7 @@
   "cordova-plugin-mas-core": {
     "source": {
       "type": "local",
-      "path": "/Users/yussy01/Workspace/Cordova/Release/2.0.00/test/connectaapp/node_modules/cordova-plugin-mas-core"
+      "path": "/Users/yussy01/Workspace/Cordova/Release/2.1.00/Samples/MASConnecta/node_modules/cordova-plugin-mas-core"
     },
     "is_top_level": true,
     "variables": {}
@@ -18,7 +18,7 @@
   "cordova-plugin-mas-connecta": {
     "source": {
       "type": "local",
-      "path": "/Users/yussy01/Workspace/Cordova/Release/2.0.00/test/connectaapp/node_modules/cordova-plugin-mas-connecta"
+      "path": "/Users/yussy01/Workspace/Cordova/Release/2.1.00/Samples/MASConnecta/node_modules/cordova-plugin-mas-connecta"
     },
     "is_top_level": true,
     "variables": {}
