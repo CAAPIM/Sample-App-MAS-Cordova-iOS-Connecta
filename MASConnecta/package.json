@@ -1,6 +1,6 @@
 {
-  "name": "com.ca.apim.connectaapp",
-  "displayName": "connectaapp",
+  "name": "com.ca.apim.masconnecta",
+  "displayName": "MASConnecta",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "cordova-ios": "^5.0.1",
+    "cordova-ios": "^5.1.1",
     "cordova-plugin-mas-connecta": "file:../../Cordova-MAS-Connecta",
     "cordova-plugin-mas-core": "file:../../Cordova-MAS-Foundation"
   },
@@ -22,7 +22,9 @@
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-mas-core": {},
+      "cordova-plugin-mas-connecta": {}
     },
     "platforms": [
       "ios"
